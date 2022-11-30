@@ -1,0 +1,55 @@
+body {
+  margin: 20px;
+  -webkit-text-stroke: 0.75px black; /* width and color */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.avatar {
+  width: 150px;
+}
+
+.card {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  /* background-color: #386641;
+  border-bottom: 6px solid #6a994e; */
+  color: #ee8372;
+
+  background: hsla(132, 29%, 31%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(132, 29%, 31%, 1) 0%,
+    hsla(188, 78%, 69%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(132, 29%, 31%, 1) 0%,
+    hsla(188, 78%, 69%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(132, 29%, 31%, 1) 0%,
+    hsla(188, 78%, 69%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#386641", endColorstr="#74DEEE", GradientType=1 );
+
+  /* 
+  Challenge:
+  Add colors to the card according to the design.
+  black - #2b2839 (the text color)
+  blue - #ddebf8
+  purple - #d8cefe
+  */
+}
+
+.border-blue {
+  border: 1px dotted blue;
+}
